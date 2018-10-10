@@ -2,16 +2,16 @@
 
 Mimic is a single-window application. The interface is divided into four main parts:
 
-- **Action Bar**
-- **Routes**
-- **Logs**
-- **Status bar**
+- **[Action Bar](#action-bar)**
+- **[Routes](#routes)**
+- **[Logs](#logs)**
+- **[Status bar](#status-bar)**
 
-Every part of the application was designed to give you enough space for showing information.
+Every part of the application was designed to give you enough space for showing all the necessary information.
 
 ## Action Bar
 
-![alt text](../Images/actionbar.png 'Action bar')
+![Action Bar](../Images/actionbar.png 'Action bar')
 
 On the Action Bar, the following options are available:
 
@@ -19,79 +19,85 @@ On the Action Bar, the following options are available:
 
 - **Edit** Icon - Edit the project name.
 
-- **Start Server** Button - Start the server, stop the server.
+- **Start Server** Button - Starts or stops the background server for mocking requests.
 
-- **Plus(+)** Button - Add a route to the project.
+- **Plus(+)** Button - Add an endpoint to the project.
 
-- **Menu** Button - Projects settings, delete all routes, delete project.
+- <img align="top" src="../Images/menuicon.png" width="20" > **Menu** Button - Projects settings, delete all routes, delete project.
 
 ## Routes
 
-![alt text](../Images/routes.png 'Routes')
+![Routes](../Images/routes.png 'Routes')
 
-The user can see a list of routes. Every route contains a description, method, type and endpoint path.
+You can see a list of endpoints. Every endpoint contains a description, method, type and endpoint path.
 
 ### Routes Details
 
-When the user clicks on an item in the routes' list, the Side Bar is shown with details about the selected endpoint.
+When you clicks on an item in the routes' list, the Side Bar is shown with details about the selected endpoint.
 
 ### Side Bar - Endpoints Details
 
-![alt text](../Images/endpointdetails.png 'Endpoints Details')
+![Endpoints Details](../Images/endpointdetails.png 'Endpoints Details')
 
 The Side Bar has four main parts:
 
-- **Endpoint Details Action Bar** - Settings for the endpoint.
-- **Path** - Input where the user can set an endpoint path.
-- **Request/Response** - Two buttons let the user switch between Request and Response options.
-- **Methods and Body** - Depends on the **Request/Response** buttons.
+- **[Endpoint Details Action Bar](#endpoint-details-action-bar)** - Settings for the endpoint.
+- **[Path](#path)** - Input where you can set an endpoint path.
+- **[Request](#request)/[Response](#response)** - Two buttons let you switch between Request and Response options.
+- **[Methods and Body](#request)** - Depends on the **Request/Response** buttons.
 
 #### Endpoint Details Action Bar
 
-![alt text](../Images/detailsoptions.png 'Endpoints Details')
+![Endpoints Details](../Images/detailsoptions.png 'Endpoints Details')
 The Action Bar contains:
 
-- **Menu Button** - Allows the user to delete an endpoint.
-- **Save Icon** - Allows the user to save endpoint details, making it active after every change.
+- **Menu Button** - Allow you to delete an endpoint.
+- **Save Icon** - Allow you to save endpoint details, making it active after every change.
 - **Close Icon** - Closes the endpoint details.
 
 #### Path
 
-An user can type the endpoint path and save it using _Enter_ or _Save Icon_.
+You can type the endpoint path and save it using _Enter_ or _Save Icon_.
 
 #### Request
 
 The Request content contains the method buttons - GET, POST, PUT, PATCH and DELETE.
 
-Three methods - POST, PUT and PATCH - allow the user to set the **Body**:
+Three methods - POST, PUT and PATCH - allow you to set the **Body**:
 
 - JSON - The JSON body automatically saves and checks for valid syntax.
 - RAW - The RAW request body can be saved using the _Save Icon_.
 
-![alt text](../Images/request.png 'Request')
+\*App serves the currently selected body type.
 
-Two methods - GET and DELETE - allow the user to set **URL Parameters**.
+![Request](../Images/request.png 'Request')
 
-![alt text](../Images/requestGET.png 'Request GET')
+Two methods - GET and DELETE - allow you to set **URL Parameters**.
+
+![Request GET](../Images/requestGET.png 'Request GET')
 
 #### Response
 
-The user can set the following on a response:
+You can set the following on a response:
 
 - **HTTP Status Code** (more info: [HTTP Status Codes](https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)).
 - **Delay** - Set a response delay (in milliseconds).
 - **Body type** - Switch body type (JSON or RAW).
 
-![alt text](../Images/response.png 'Response')
+\*App serves the currently selected body type.
+
+![Response](../Images/response.png 'Response')
 
 ## Logs
 
-![alt text](../Images/logs.png 'Logs')
+![Logs](../Images/logs.png 'Logs')
 
-The Logs section contains a list of the server's logs. Each log has a timestamp, server status, and possibly endpoint details.
+The Logs section allows you to see the messages from the server. These are meant to let you monitor the changes in your server status (stop/start cycles) as well as any requests that are made to the mock server, along with their status codes and possible parameters.
+
+If you prefer to save predefined requests using responses from a real-life server, the Logs section is the place to go. The project can be configured [Create first project](basics/create-first-project.md) to forward any requests not handled by the local _mock server_ to a fallback server. Such requests will appear in the Logs list with a green Mock button on the right. Clicking it will automatically save the path and parameters of the given endpoint along with the response from the fallback server.
 
 Clicking the _Garbage Icon_ will clear all logs.
 
 ## Status Bar
 
-The Status Bar represents the **Server Status**.
+The Status Bar represents the current status of the server that we run in the background to mock all the defined requests.
