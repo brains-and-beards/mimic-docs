@@ -17,9 +17,9 @@ On the Action Bar, the following options are available:
 
 - <img align="center" src="../Images/projectsbutton.png" width="93"> **Projects** Button - Create a new project, switch between projects.
 
-- <img align="top" src="../Images/editicon.png" width="23"> **Edit** Icon - Edit the project name.
-
 - <img align="center" src="../Images/startserver.png" width="93"> **Start Server** Button - Starts or stops the background server for mocking requests.
+
+- <img align="top" src="../Images/editicon.png" width="23"> **Edit** Icon - Edit the project name.
 
 - <img align="top" src="../Images/addicon.png" width="25"> **Plus(+)** Button - Add an endpoint to the project.
 
