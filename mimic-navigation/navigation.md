@@ -15,13 +15,13 @@ Every part of the application was designed to give you enough space for showing 
 
 On the Action Bar, the following options are available:
 
-- **Projects** Button - Create a new project, switch between projects.
+- <img align="center" src="../Images/projectsbutton.png" width="93"> **Projects** Button - Create a new project, switch between projects.
 
-- **Edit** Icon - Edit the project name.
+- <img align="top" src="../Images/editicon.png" width="23"> **Edit** Icon - Edit the project name.
 
-- **Start Server** Button - Starts or stops the background server for mocking requests.
+- <img align="center" src="../Images/startserver.png" width="93"> **Start Server** Button - Starts or stops the background server for mocking requests.
 
-- **Plus(+)** Button - Add an endpoint to the project.
+- <img align="top" src="../Images/addicon.png" width="25"> **Plus(+)** Button - Add an endpoint to the project.
 
 - <img align="top" src="../Images/menuicon.png" width="20" > **Menu** Button - Projects settings, delete all routes, delete project.
 
@@ -51,9 +51,10 @@ The Side Bar has four main parts:
 ![Endpoints Details](../Images/detailsoptions.png 'Endpoints Details')
 The Action Bar contains:
 
-- **Menu Button** - Allow you to delete an endpoint.
-- **Save Icon** - Allow you to save endpoint details, making it active after every change.
-- **Close Icon** - Closes the endpoint details.
+- <img align="top" src="../Images/menuicon.png" width="25"> **Menu Button** - Allow you to delete an endpoint.
+
+- <img align="top" src="../Images/saveicon.png" width="25"> **Save Icon** - Allow you to save endpoint details, making it active after every change.
+- <img align="top" src="../Images/closeicon.png" width="25"> **Close Icon** - Closes the endpoint details.
 
 #### Path
 
@@ -96,7 +97,7 @@ The Logs section allows you to see the messages from the server. These are meant
 
 If you prefer to save predefined requests using responses from a real-life server, the Logs section is the place to go. The project can be configured [Create first project](basics/create-first-project.md) to forward any requests not handled by the local _mock server_ to a fallback server. Such requests will appear in the Logs list with a green Mock button on the right. Clicking it will automatically save the path and parameters of the given endpoint along with the response from the fallback server.
 
-Clicking the _Garbage Icon_ will clear all logs.
+Clicking the _Garbage Icon_ <img align="top" src="../Images/garbageicon.png" width="25"> will clear all logs.
 
 ## Status Bar
 
