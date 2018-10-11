@@ -3,7 +3,7 @@
 Mimic is a single-window application. The interface is divided into four main parts:
 
 - **[Action Bar](#action-bar)**
-- **[Routes](#routes)**
+- **[Endpoints](#endpoints)**
 - **[Logs](#logs)**
 - **[Status bar](#status-bar)**
 
@@ -23,17 +23,17 @@ On the Action Bar, the following options are available:
 
 - <img align="top" src="../Images/addicon.png" width="25"> **Plus(+)** Button - Add an endpoint to the project.
 
-- <img align="top" src="../Images/menuicon.png" width="20" > **Menu** Button - Projects settings, delete all routes, delete project.
+- <img align="top" src="../Images/menuicon.png" width="24" > **Menu** Button - Projects settings, delete all endpoints, delete project.
 
-## Routes
+## Endpoints
 
-![Routes](../Images/routes.png 'Routes')
+![Endpoints](../Images/endpoints.png 'Endpoints')
 
 You can see a list of endpoints. Every endpoint contains a description, method, type and endpoint path.
 
-### Routes Details
+### Endpoints Details
 
-When you clicks on an item in the routes' list, the Side Bar is shown with details about the selected endpoint.
+When you clicks on an item in the endpoints list, the Side Bar is shown with details about the selected endpoint.
 
 ### Side Bar - Endpoints Details
 
