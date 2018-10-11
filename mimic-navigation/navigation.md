@@ -76,7 +76,7 @@ Three methods - POST, PUT and PATCH - allow you to set the **Body**:
 
 Two methods - GET and DELETE - allow you to set **URL Parameters**.
 
-![Request GET](../Images/requestGET.png 'Request GET')
+![Request GET](../Images/requestGet.png 'Request GET')
 
 #### Response
 
