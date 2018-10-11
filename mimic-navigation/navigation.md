@@ -49,6 +49,7 @@ The Side Bar has four main parts:
 #### Endpoint Details Action Bar
 
 ![Endpoints Details](../Images/detailsoptions.png 'Endpoints Details')
+
 The Action Bar contains:
 
 - <img align="top" src="../Images/menuicon.png" width="25"> **Menu Button** - Allow you to delete an endpoint.
