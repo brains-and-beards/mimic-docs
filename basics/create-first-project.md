@@ -44,7 +44,7 @@ Let's create your first endpoint. To do it click on yellow plus button on the **
 
 ![Add Endpoint](../Images/actionbar_createendpoint.png 'Add Endpoint')
 
-Now you can see the new endpoint on the _Routes_ list, click on the row to add more details. Clicking on the endpoint row, you will see the **Endpoint Details Section** on the right.
+Now you can see the new endpoint on the _Endpoints_ list, click on the row to add more details. Clicking on the endpoint row, you will see the **Endpoint Details Section** on the right.
 
 ![New Endpoint](../Images/newendpoint_details.png 'New Endpoint')
 
