@@ -96,7 +96,7 @@ You can set the following on a response:
 
 The Logs section allows you to see the messages from the server. These are meant to let you monitor the changes in your server status (stop/start cycles) as well as any requests that are made to the mock server, along with their status codes and possible parameters.
 
-If you prefer to save predefined requests using responses from a real-life server, the Logs section is the place to go. The project can be configured [Create first project](basics/create-first-project.md) to forward any requests not handled by the local _mock server_ to a fallback server. Such requests will appear in the Logs list with a green Mock button on the right. Clicking it will automatically save the path and parameters of the given endpoint along with the response from the fallback server.
+If you prefer to save predefined requests using responses from a real-life server, the Logs section is the place to go. The project [can be configured](basics/create-first-project.md) to forward any requests not handled by the local _mock server_ to a fallback server. Such requests will appear in the Logs list with a green Mock button on the right. Clicking it will automatically save the path and parameters of the given endpoint along with the response from the fallback server.
 
 Clicking the _Garbage Icon_ <img align="top" src="../Images/garbageicon.png" width="25"> will clear all logs.
 
