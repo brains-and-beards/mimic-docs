@@ -9,7 +9,7 @@
 
 ## App Navigation
 
-* [Interface](mimic-navigation/untitled.md)
+* [Interface](mimic-navigation/navigation.md)
 
 ## Basics
 
