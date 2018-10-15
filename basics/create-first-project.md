@@ -1,6 +1,6 @@
 # Create first project
 
-The followings paragraphes describe how setting up your first project on Mimic:
+Read on to learn how to set up your first project on Mimic:
 
 - **[Create Project](#create-project)**
 - **[Mock Server](#mock-server)**
@@ -29,12 +29,12 @@ Clicking on **Add Project** the project will be created.
 
 ## Mock Server
 
-Once the project is created you can see on the **Status Bar** that the server is working and its url; this is the base url used by all endpoints you will create.
+Once the project is created you can see on the **Status Bar** that the server is working and its url. This is the base url used by all endpoints you will create.
 
 ![Server working](../Images/statusbar_serverworking.png 'Server Working')
 
 As you can see the base url includes also the name of the project (_myproject_ in the image above).
-Clicking on the **Status Bar** the base url will be copied on the clipboard.
+Clicking on the **Status Bar** the base url will be copied to the clipboard.
 
 You can manage the mock server through the **Server Button** of the **Action Bar**, clicking on this button you can start/stop the server and the current server status will be shown on the **Status Bar**
 
@@ -50,7 +50,7 @@ Now you can see the new endpoint on the _Endpoints_ list, click on the row to ad
 
 in this panel you can set the _path_ of the endpoint, the details of the request and of the response.
 
-On the top bar you can see the current path of this enpoint, at the moment it is the default value set automatically.
+In the top bar you can see the current path of this endpoint, at the moment it is the default value set automatically.
 
 You will see all details of this panel on the next sections: **Sending Api Request** and **Response options**.
 
