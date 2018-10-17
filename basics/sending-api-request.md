@@ -59,4 +59,4 @@ That's basically it about creating a request mock. We hope you found what you we
 - [Create first project](basics/create-first-project.md)
 - [Response options](basics/response-options.md)
 
-Or you can just contact useand we'll do our best to help you!
+Or you can just contact us and we'll do our best to help you!
