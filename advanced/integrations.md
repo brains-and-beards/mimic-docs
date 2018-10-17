@@ -6,22 +6,25 @@ In Brains and Breads we are using Detox library to to write integration test in 
 
 ## Integration React Native App with Detox
 
-1. Configure detox for app, you find detail instruction here [Detox documentation](https://github.com/wix/Detox)
+Detox is an end-to-end testing and automation library for mobile apps. It tests your mobile app while it's running in a real device/simulator, interacting with it just like a real user. We'll show you how you can use it with Mimic to test your API with mocked endpoints.
 
-2. Write test calling api request in your app.
+1. Configure Detox. You will find detailed instructions [here](https://github.com/wix/Detox).
 
-3. Run Mimic with mock endpoints.
+2. Write an E2E test in Detox.
 
-4. Change api address in your app for ex.
+3. Run Mimic with your mocked endpoints.
+
+4. Change your API URL for Detox tests.
 
 ```
-    detoxTests: {
-    apiURL: 'http://172.16.20.15:2002/app-name', -> it's important to set your machine IP address, because fetch doesn't work with localhost
-  }
+detoxTests: {
+  // It's important to use your machine's IP address, because fetch doesn't work with localhost
+  apiURL: 'http://172.16.20.15:2002/app-name'
+}
 ```
 
-5. Run build command -> `detox build --configuration android.emu.release`
+5. Run _build_ command -> `detox build --configuration android.emu.release`
 
-6. Run tests command -> `detox test -c android.emu.release`
+6. Run _test_ command -> `detox test -c android.emu.release`
 
 Good luck :)
