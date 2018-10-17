@@ -1,6 +1,6 @@
 # Mocking an API Request
 
-Now that you know how to create your first project, create your first advanced request.
+Now that you know how to create your first project, create your first advanced request mock.
 
 ## Create a new endpoint
 
@@ -52,3 +52,11 @@ Additionally, the Mimic app allows you to make requests with a Raw body. This is
 ![Raw body](../Images/rawbody.png 'Json body')
 
 To remove your endpoint, click _Delete Endpoint_ from the hamburger menu (see below):
+![Remove endpoint](../Images/removeendpoint.png 'Remove endpoint')
+
+That's basically it about creating a request mock. We hope you found what you were looking for! If not, you might want to check related documentation sections:
+
+- [Create first project](basics/create-first-project.md)
+- [Response options](basics/response-options.md)
+
+Or you can just contact useand we'll do our best to help you!

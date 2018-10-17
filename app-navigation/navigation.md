@@ -17,7 +17,7 @@ On the Action Bar, the following options are available:
 
 - <img align="center" src="../Images/projectsbutton.png" width="93"> **Projects** Button - Create a new project, switch between projects.
 
-- <img align="center" src="../Images/startserver.png" width="93"> **Start Server** Button - Starts or stops the background server for mocking requests.
+- <img align="center" src="../Images/startserver.png" width="93"> **Start Server** Button - Start or stop the background server for mocking requests.
 
 - <img align="top" src="../Images/editicon.png" width="23"> **Edit** Icon - Edit the project name.
 
@@ -67,7 +67,7 @@ The Request content contains the method buttons - GET, POST, PUT, PATCH and DELE
 
 Three methods - POST, PUT and PATCH - allow you to set the **Body**:
 
-- JSON - The JSON body automatically saves and checks for valid syntax.
+- JSON - The JSON body automatically saves and checks for valid syntax but you can also use the _Save Icon_.
 - RAW - The RAW request body can be saved using the _Save Icon_.
 
 \*App serves the currently selected body type.
