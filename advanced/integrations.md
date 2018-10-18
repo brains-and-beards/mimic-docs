@@ -2,11 +2,11 @@
 
 Mimic app is good solution for mobile developers which want to write automatic and integration tests for application. They can do this without any testing database and testing api.
 
-In Brains and Breads we are using Detox library to to write integration test in react native apps. [More info](https://github.com/wix/Detox)
+In Brains and Breads we are using Detox library to to write integration test for React Native apps. [Detox library](https://github.com/wix/Detox)
 
-## Integration React Native App with Detox
+## Integrating React Native Apps with Detox
 
-Detox is an end-to-end testing and automation library for mobile apps. It tests your mobile app while it's running in a real device/simulator, interacting with it just like a real user. We'll show you how you can use it with Mimic to test your API with mocked endpoints.
+Detox is an end-to-end testing and automation library for mobile apps. It tests your mobile app while it's running on a real device/simulator, interacting with it just like a real user. We'll show you how you can use it with Mimic to test your API with mocked endpoints.
 
 1. Configure Detox. You will find detailed instructions [here](https://github.com/wix/Detox).
 
