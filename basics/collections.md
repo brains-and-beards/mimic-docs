@@ -44,7 +44,7 @@ Let's try to do a request to the mock server for this endpoint using the followi
 
 `curl http://localhost:3000/countries/all`
 
-Because the `coutries` project hasn't the `all` endpoint, this request is forwarded to the real API service using the data you set in the project details. In that way you receive the response from the real API service through Mimic.
+Because the `countries` project doesn't have the `all` endpoint, this request is forwarded to the real API service using the data you set in the project details. You will receive the response from the real API service proxied through Mimic.
 
 ## Mock Button
 
