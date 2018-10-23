@@ -1,4 +1,4 @@
-# Collections
+# API Forwarding
 
 In this section is described the **API forwarding** feature of Mimic and how you can easily mock a real endpoint of your API service.
 
