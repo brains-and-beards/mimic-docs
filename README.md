@@ -9,16 +9,7 @@ Useful when:
 - Writing automatic tests and integration tests for an application.
 
 # Documentation
-
-- [Mimic app](#mimic-app)
-- [Documentation](#documentation)
-  - [Installation and updates](#installation-and-updates)
-  - [App Navigation](#app-navigation)
-  - [Basics](#basics)
-  - [Advanced](#advanced)
-  - [Support](#support)
-- [License](#license)
-
+ 
 ## Installation and updates
 
 - [MacOS installation](installation-and-updates/macos-installation.md)
@@ -31,7 +22,7 @@ Useful when:
 ## Basics
 
 - [Create first project](basics/create-first-project.md)
-- [Sending Api Request](basics/sending-api-request.md)
+- [Mocking an API Request](basics/sending-api-request.md)
 - [Response options](basics/response-options.md)
 - [API Forwarding](basics/api-forwarding.md)
 
