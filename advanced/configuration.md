@@ -24,7 +24,7 @@ Example Config:
           "timeout": 0,
         }
       ],
-      "fallbackUrlPrefix": "https://your.api.host/api/v2/"
+      "urlPrefix": "https://your.api.host/api/v2/"
     }
   ],
   "version": "1.0"
@@ -42,7 +42,7 @@ Project Structure:
 - `uuid` - Project id should be unique and not empty.
 - `name` - Project name.
 - `endpoints` - Array which represents a list of endpoints in the project.
-- `fallbackUrlPrefix` - String which represents the address of a server with a real API to be used for [mocking](../basics/collections.md) purposes
+- `urlPrefix` - String which represents the address of a server with a real API to be used for [mocking](../basics/collections.md) purposes
 
 Endpoint structure:
 
