@@ -16,6 +16,7 @@
 - [Create first project](basics/create-first-project.md)
 - [Sending Api Request](basics/sending-api-request.md)
 - [Response options](basics/response-options.md)
+- [Parameterized endpoints](basics/parameterized-endpoints.md)
 - [API Forwarding](basics/api-forwarding.md)
 
 ## Advanced
