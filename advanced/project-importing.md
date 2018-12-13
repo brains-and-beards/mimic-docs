@@ -2,7 +2,8 @@
 
 Mimic app can import projects from external file, this feature could be very useful and it is very easy to use.
 
-Mimic doesn't import the file but only save a reference to it, so the path of the file used in this process must not change. For instance this feature if very useful is you save the JSON file with the project settings in the same folder of your project
+Mimic doesn’t import the file but only saves a reference to it, so the path of the file used in this process must not be changed.
+For instance this feature if very useful to share the same project settings with other people of the same team.
 
 To import a project click on _Import project_ on the menu on the top left:
 
@@ -65,7 +66,7 @@ Each endpoint has _uuid_, _path_, _method_, _response_, _request_, _statusCode_,
 - The _path_ is the path of the endpoint, like `/users`.
 - The _method_ is the method of the endpoint, like `GET`, `POST`, `PUT`, `DELETE`, `PATCH`.
 - The _response_ is the response of the endpoint, here you can set the JSON used as response.
-- The _request_ is the request of the endpoint, here you can set the _body_ (JSON) and the _parameters_ of the request. Like `sortby=date`.
+- The _request_ is the request of the endpoint, here you can set the _body_ (JSON) and the _parameters_ of the request. Like `?sortby=date`.
 - The _statusCode_ is the status code of the response of the endpoint, like `200`.
 - The _timeout_ is the delay (in ms) of the response of the endpoint.
 
@@ -81,6 +82,6 @@ You can find it in the projects list:
 
 ![Imported Project Menu](../Images/imported_project_menu.png 'Imported Project Menu')
 
-settingsand clicking on it you will find all endpoints set on the JSON file:
+and clicking on it you will find all endpoints set on the JSON file:
 
 ![Imported Project](../Images/imported_project.png 'Imported Project')
