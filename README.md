@@ -30,6 +30,7 @@ Useful when:
 
 - [Configuration](advanced/configuration.md)
 - [Integrations](advanced/integrations.md)
+- [Query parameters matching](advanced/query-parameters-matching.md)
 
 ## Support
 
