@@ -22,6 +22,7 @@
 
 - [Configuration](advanced/configuration.md)
 - [Integrations](advanced/integrations.md)
+- [Project Importing](advanced/project-importing.md)
 
 ## Support
 
