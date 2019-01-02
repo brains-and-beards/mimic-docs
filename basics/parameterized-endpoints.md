@@ -13,7 +13,7 @@ To summarize, if you want to intercept all requests to:
 
 `GET http://www.example.com/posts/{post_id}`
 
-in your endpoint path you have to set:
+In your endpoint path you have to set:
 
 `posts/*`
 
