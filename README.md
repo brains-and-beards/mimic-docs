@@ -9,7 +9,7 @@ Useful when:
 - Writing automatic tests and integration tests for an application.
 
 # Documentation
- 
+
 ## Installation and updates
 
 - [MacOS installation](installation-and-updates/macos-installation.md)
@@ -31,6 +31,7 @@ Useful when:
 - [Configuration](advanced/configuration.md)
 - [Integrations](advanced/integrations.md)
 - [Query parameters matching](advanced/query-parameters-matching.md)
+- [Enable/Disable endpoint](advanced/enable-disable-endpoint.md)
 
 ## Support
 
