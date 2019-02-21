@@ -21,7 +21,7 @@ Let's create our project to mock that service API. Create a new project called *
 
 ![API Forwarding Exampre Project](../Images/api_forwarding_example_project.png 'API Forwarding Exampre Project')
 
-During the set up process you must add the information about the real API service and you can specify the **URL prefix** in a simple string format: `restcountries.eu/rest/v2/`. The prefix is made up of 3 main components:
+During the set up process you must add the information about the real API service and you can specify the **Forward API URL** in a simple string format: `restcountries.eu/rest/v2/`. The prefix is made up of 3 main components:
 
 - _Domain_ : `restcountries.eu`
 - _Path_ : the path is set to `/rest/v2/` because all the endpoints have this path in their URLs
@@ -63,7 +63,7 @@ After clicking on **Mock** button you can see the new `all` endpoint in the endp
 
 ## Conclusions
 
-**API Forwarding** feature allows Mimic to forward requests to real API services when the current project hasn't the requested endpoint and all the information of the real API service (URL prefix) are set in the project details.
+**API Forwarding** feature allows Mimic to forward requests to real API services when the current project hasn't the requested endpoint and all the information of the real API service (Forward API URL) are set in the project details.
 
 In addition when a request is forwarded, the **Mock Button** allow the user mock the endpoint with a single click.
 
